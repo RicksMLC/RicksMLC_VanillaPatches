@@ -1,0 +1,9 @@
+name=Rick's MLC Vanilla Patches
+poster=poster.png
+id=RicksMLC_VanillaPatches
+description= <INDENT:20> * Vehicle Mechanics: Uninstalling a tyre from a vehicle would not keep the tyre pressure. <LINE>
+description= <INDENT:25>   This patch restores the correct pressure to the tyre. <LINE>
+description= <INDENT:20> * Fixing things: Code would error when completing the fix action (eg fix Claw Hammer with Duct Tape) <LINE>
+description= <INDENT:25>   The patch overrides the CraftRecipeCode.GenericFixing.OnCreate to not call item:getMaintenanceMod() as item is nil at this point in the execution. <LINE>
+description= <INDENT:0> <LINE>
+url=
