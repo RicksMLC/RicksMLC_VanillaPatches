@@ -1,8 +1,9 @@
 version=0.2
 title=Rick's MLC Vanilla Patches
-description= Patches vanilla things as I find them. [list]
+description= Patches vanilla things as I find them: [list]
 description= [*] Vehicle Mechanics: Uninstalling a tyre from a vehicle would not keep the tyre pressure. 
 description= [*] Fixing things: Code would error when completing the fix action (eg fix Claw Hammer with Duct Tape)
+description= [*] Rain collectors don't have a Wash option 
 description= [/list]
 tags=Build 42
 visibility=public
